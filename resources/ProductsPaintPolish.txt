@@ -1,0 +1,37 @@
+Бои, Лакове, Мазилки	/bg/products/boi-lakove-mazilki
+Бои	/bg/products/boi-lakove-mazilki/boi
+Алкидни бои	/bg/products/boi-lakove-mazilki/boi/alkidni-boi
+Водоразредими бои	/bg/products/boi-lakove-mazilki/boi/vodorazredimi-boi
+Китове за дърво	/bg/products/boi-lakove-mazilki/boi/kitove-za-dyrvo
+Спрейове	/bg/products/boi-lakove-mazilki/boi/sprejove
+Разредители	/bg/products/boi-lakove-mazilki/boi/razrediteli
+Оксидни Бои	/bg/products/boi-lakove-mazilki/boi/oksidni-boi
+Лакове	/bg/products/boi-lakove-mazilki/lakove
+Масла и импрегнатори за дърво	/bg/products/boi-lakove-mazilki/lakove/masla-i-impregnatori-za-dyrvo
+Лазурни лакове	/bg/products/boi-lakove-mazilki/lakove/lazurni-lakove
+Яхтени лакове	/bg/products/boi-lakove-mazilki/lakove/jahteni-lakove
+Паркетни лакове	/bg/products/boi-lakove-mazilki/lakove/parketni-lakove
+Водоразредими лакове	/bg/products/boi-lakove-mazilki/lakove/vodorazredimi-lakove
+Други лакове	/bg/products/boi-lakove-mazilki/lakove/drugi-lakove
+Интериорни Продукти	/bg/products/boi-lakove-mazilki/interiorni-produkti
+Бял латекс	/bg/products/boi-lakove-mazilki/interiorni-produkti/bjal-lateks
+Цветен латекс	/bg/products/boi-lakove-mazilki/interiorni-produkti/cveten-lateks
+Латекс за тониране	/bg/products/boi-lakove-mazilki/interiorni-produkti/lateks-za-tonirane
+Тониращи пасти	/bg/products/boi-lakove-mazilki/interiorni-produkti/tonirashti-pasti
+Ефекти	/bg/products/boi-lakove-mazilki/interiorni-produkti/efekti
+Екстериорни Продукти	/bg/products/boi-lakove-mazilki/eksteriorni-produkti
+Бели фасадни бои	/bg/products/boi-lakove-mazilki/eksteriorni-produkti/beli-fasadni-boi
+Фасадни бои за тониране	/bg/products/boi-lakove-mazilki/eksteriorni-produkti/fasadni-boi-za-tonirane
+Мазилки	/bg/products/boi-lakove-mazilki/eksteriorni-produkti/mazilki
+Грундове, Импрегнатори, Горива и Концентрати	/bg/products/boi-lakove-mazilki/grundove-impregnatori-goriva-i-koncentrati
+Грундове	/bg/products/boi-lakove-mazilki/grundove-impregnatori-goriva-i-koncentrati/grundove
+Импрегнатори	/bg/products/boi-lakove-mazilki/grundove-impregnatori-goriva-i-koncentrati/impregnatori
+Горива и Концентрати	/bg/products/boi-lakove-mazilki/grundove-impregnatori-goriva-i-koncentrati/goriva-i-koncentrati
+Консумативи и Инструменти	/bg/products/boi-lakove-mazilki/konsumativi-i-instrumenti
+Лаково-бояджийски инструменти	/bg/products/boi-lakove-mazilki/konsumativi-i-instrumenti/lakovo-bojadzhijski-instrumenti
+Шкурки	/bg/products/boi-lakove-mazilki/konsumativi-i-instrumenti/shkurki
+Тикса и Ленти	/bg/products/boi-lakove-mazilki/konsumativi-i-instrumenti/tiksa-i-lenti
+Найлони, Фолиа и Чували	/bg/products/boi-lakove-mazilki/konsumativi-i-instrumenti/najloni-folia-i-chuvali
+Автобои, Китове, Грундове	/bg/products/mashini-i-instrumenti/avto/avto-boi-kitove-grundove
+Пистолети за боя	/bg/products/mashini-i-instrumenti/stroitelna-tehnika/pistoleti-za-boja
+Лични предпазни средства	/bg/products/mashini-i-instrumenti/druga-tehnika-i-konsumativi

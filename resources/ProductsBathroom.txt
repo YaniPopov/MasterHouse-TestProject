@@ -1,0 +1,36 @@
+Баня	/bg/products/banja
+Мебели и Огледала за баня	/bg/products/banja/mebeli-i-ogledala-za-banja
+Мебели за Баня	/bg/products/banja/mebeli-i-ogledala-za-banja/mebeli-za-banja
+Огледала за Баня	/bg/products/banja/mebeli-i-ogledala-za-banja/ogledala-za-banja
+Смесители	/bg/products/banja/smesiteli
+Смесители за Баня	/bg/products/banja/smesiteli/smesiteli-za-banja
+Тръбни окачвания и панели	/bg/products/banja/smesiteli/trybni-okachvanija-i-paneli
+Аксесоари за Смесители	/bg/products/banja/smesiteli/aksesoari-za-smesiteli
+Санитарен Фаянс	/bg/products/banja/sanitaren-fajans
+Мивки, Полуконзоли и Конзоли	/bg/products/banja/sanitaren-fajans/mivki-polukonzoli-i-konzoli
+Тоалетни чинии	/bg/products/banja/sanitaren-fajans/toaletni-chinii
+Моноблокове	/bg/products/banja/sanitaren-fajans/monoblokove
+Бидета и писоари	/bg/products/banja/sanitaren-fajans/bideta-i-pisoari
+Тоалетни седалки	/bg/products/banja/sanitaren-fajans/toaletni-sedalki
+Консумативи за санитарен фаянс	/bg/products/banja/sanitaren-fajans/konsumativi-za-sanitaren-fajans
+Тоалетни Казанчета	/bg/products/banja/toaletni-kazancheta
+Казанчета	/bg/products/banja/toaletni-kazancheta/kazancheta
+Структури за вграждане	/bg/products/banja/toaletni-kazancheta/strukturi-za-vgrazhdane
+Резервни части	/bg/products/banja/toaletni-kazancheta/rezervni-chasti
+Вани и профили	/bg/products/banja/vani-i-profili
+Душ Кабини	/bg/products/banja/vani-i-profili/dush-kabini
+Вани	/bg/products/banja/vani-i-profili/vani
+Паравани и преградни стени	/bg/products/banja/vani-i-profili/paravani-i-pregradni-steni
+Поддушови корита и профили	/bg/products/banja/vani-i-profili/poddushovi-korita-i-profili
+Резервни части	/bg/products/banja/vani-i-profili/rezervni-chasti
+Допълнителни Аксесоари	/bg/products/banja/dopylnitelni-aksesoari
+Аксесоари за Баня	/bg/products/banja/dopylnitelni-aksesoari/aksesoari-za-banja
+Корнизи и Завеси за Баня	/bg/products/banja/dopylnitelni-aksesoari/kornizi-i-zavesi-za-banja
+Кошчета и Четки	/bg/products/banja/dopylnitelni-aksesoari/koshcheta-i-chetki
+Плочки	/bg/products/podovi-i-stenni-pokritija/plochki
+Бойлери	/bg/products/el-uredi/bojleri
+Вентилатори за баня	/bg/products/osvetlenie-i-el-materiali/el-oborudvane/ventilatori-za-banja
+Чистота и Блясък	/bg/products/domakinstvo/chistota-i-bljasyk
+Здраве и Красота	/bg/products/el-uredi/zdrave-i-krasota
+Постелки	/bg/products/podovi-i-stenni-pokritija/meki-nastilki/postelki
+Хавлии	/bg/products/domakinstvo/tekstil/havlii
