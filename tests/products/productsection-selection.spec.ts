@@ -1,6 +1,7 @@
 import { test, expect, Locator } from '@playwright/test'
 import { MainPage } from '../../pages/other-pages/main-page';
-import ProductPage from '../../pages/product-pages/product-page';
+import { Product } from '../../pages/product-pages/product';
+import ProductSectionPage from '../../pages/product-pages/product-section-page';
 import { CommonWrapper } from '../../utils/common-wrapper';
 
 
@@ -45,13 +46,13 @@ test.describe('Products section', () => {
 
         let data = await CommonWrapper.readCSVFile("./resources/ProductsBathroom.txt");
         const mainPage = new MainPage(page);
-        const productPage = new ProductPage(page);
+        const productSectionPage = new ProductSectionPage(page);
         await mainPage.openProductPage();
-        await productPage.hoverOnSection(productPage.bathSection);
+        await productSectionPage.hoverOnSection(productSectionPage.bathSection);
         //await page.waitForTimeout(5000);
         let subItems: Locator[] = [];
         while (subItems.length < 2) {
-            subItems = await productPage.bathSection.locator("//a").all();
+            subItems = await productSectionPage.bathSection.locator("//a").all();
         }
 
         for (let i = 0; i < subItems.length; i++) {
@@ -61,7 +62,7 @@ test.describe('Products section', () => {
             if (!isHidden) {
                 await subItems[i].click()
                 if (itemLink == null) {
-                    console.log("Element " + itemText + " of section " + productPage.bathSection.getAttribute('title') +
+                    console.log("Element " + itemText + " of section " + productSectionPage.bathSection.getAttribute('title') +
                         "has null href!")
                 } else {
                     await expect(itemText).toEqual(data[i][0])
@@ -71,7 +72,7 @@ test.describe('Products section', () => {
 
                 await mainPage.openProductPage();
                 //await productPage.bathSection.hover();
-                await productPage.hoverOnSection(productPage.paintPolishSection);
+                await productSectionPage.hoverOnSection(productSectionPage.paintPolishSection);
             }
         }
 
@@ -80,13 +81,13 @@ test.describe('Products section', () => {
     test('Open Paint and Polish section of product page', async ({ page }) => {
         let data = await CommonWrapper.readCSVFile("./resources/ProductsPaintPolish.txt");
         const mainPage = new MainPage(page);
-        const productPage = new ProductPage(page);
+        const productSectionPage = new ProductSectionPage(page);
         await mainPage.openProductPage();
-        await productPage.hoverOnSection(productPage.paintPolishSection);
+        await productSectionPage.hoverOnSection(productSectionPage.paintPolishSection);
         //await page.waitForTimeout(5000);
         let subItems: Locator[] = [];
         while (subItems.length < 2) {
-            subItems = await productPage.paintPolishSection.locator("//a").all();
+            subItems = await productSectionPage.paintPolishSection.locator("//a").all();
         }
 
         for (let i = 0; i < subItems.length; i++) {
@@ -105,43 +106,12 @@ test.describe('Products section', () => {
                 // }
 
                 await mainPage.openProductPage();
-                await productPage.hoverOnSection(productPage.paintPolishSection);
+                await productSectionPage.hoverOnSection(productSectionPage.paintPolishSection);
             }
         }
     })
 
-    test.only('testtest', async ({ page }) => {
-        const mainPage = new MainPage(page);
-        const productPage = new ProductPage(page);
-        await mainPage.openProductPage();
-        const productsMainSection = await page.locator("//ul[@id='main-nav-menu']/li[2]//li[@data-item-id]").all();
-        let randSection = CommonWrapper.randomInteger(0,10)
-        await productsMainSection[randSection].hover();
-        await page.waitForTimeout(5000);
-        let subItems: Locator[] = [];
-            while (subItems.length < 2) {
-                subItems = await productsMainSection[randSection].locator("//a").all();
-            }
-        let randSubitem = CommonWrapper.randomInteger(0,subItems.length-1)
-        await subItems[randSubitem].click();
-        await page.waitForTimeout(5000);
-        
-        let subMenuItems: Locator[] = [];
-            while (subMenuItems.length < 2) {
-                subMenuItems = await page.locator("//div[@id='list-wrapper']//a").all();
-            }
-        let randSuMenuItem = CommonWrapper.randomInteger(0,subMenuItems.length-1);
-        await subMenuItems[randSuMenuItem].click();
-
-        let items: Locator[] = [];
-        while (items.length < 2) {
-            items = await page.locator("//div[@id='list-wrapper']//a").all();
-        }
-        let randItem = CommonWrapper.randomInteger(0,items.length-1);
-        await items[randItem].click()
-        await page.waitForTimeout(5000);
-
-    })
+   
 
 
 })

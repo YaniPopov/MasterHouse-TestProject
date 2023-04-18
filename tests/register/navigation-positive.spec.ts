@@ -1,6 +1,6 @@
 import test, { expect } from "@playwright/test";
 import {MainPage} from "../../pages/other-pages/main-page";
-import ProductPage from "../../pages/product-pages/product-page";
+import ProductSectionPage from "../../pages/product-pages/product-section-page";
 import FaceBookloginPage from "../../pages/register-login/facebook-login-page";
 import WelcomePage from "../../pages/register-login/welcome-page";
 
@@ -19,7 +19,7 @@ test.describe('Main navigation', () => {
 
     test('Open Products', async ({page}) => {
         const mainPage = new MainPage(page);
-        const productPage = new ProductPage(page);
+        const productPage = new ProductSectionPage(page);
         await mainPage.openProductPage();
         await expect(productPage.bathSection).toBeVisible();
     })
